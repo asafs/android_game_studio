@@ -24,6 +24,10 @@
             android:name=".AndroidAPIsTests.SingleTouchTest"
             android:label="@string/title_activity_single_touch_test" >
         </activity>
+        <activity
+            android:name=".AndroidAPIsTests.MultiTouchTest"
+            android:label="@string/title_activity_multi_touch_test" >
+        </activity>
     </application>
 
 </manifest>
