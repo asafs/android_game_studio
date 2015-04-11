@@ -28,6 +28,14 @@
             android:name=".AndroidAPIsTests.MultiTouchTest"
             android:label="@string/title_activity_multi_touch_test" >
         </activity>
+        <activity
+            android:name=".AndroidAPIsTests.AccelerometerTest"
+            android:label="@string/title_activity_accelerometer_test" >
+        </activity>
+        <activity
+            android:name=".AndroidAPIsTests.AssetsTest"
+            android:label="@string/title_activity_assets_test" >
+        </activity>
     </application>
 
 </manifest>

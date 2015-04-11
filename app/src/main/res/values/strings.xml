@@ -7,4 +7,6 @@
     <string name="title_activity_life_cycle_test">LifeCycleTest</string>
     <string name="title_activity_single_touch_test">SIngleTouchTest</string>
     <string name="title_activity_multi_touch_test">MultiTouchTest</string>
+    <string name="title_activity_accelerometer_test">AccelerometerTest</string>
+    <string name="title_activity_assets_test">AssetsTest</string>
 </resources>
