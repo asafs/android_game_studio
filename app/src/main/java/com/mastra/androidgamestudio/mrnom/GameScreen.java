@@ -4,11 +4,11 @@ import java.util.List;
 
 import android.graphics.Color;
 
-import com.mastra.androidgamestudio.framework.Graphics;
-import com.mastra.androidgamestudio.framework.Input.TouchEvent;
-import com.mastra.androidgamestudio.framework.Game;
-import com.mastra.androidgamestudio.framework.Pixmap;
-import com.mastra.androidgamestudio.framework.Screen;
+import com.mastra.androidgames.framework.Graphics;
+import com.mastra.androidgames.framework.Input.TouchEvent;
+import com.mastra.androidgames.framework.Game;
+import com.mastra.androidgames.framework.Pixmap;
+import com.mastra.androidgames.framework.Screen;
 
 public class GameScreen extends Screen {
 	enum GameState {

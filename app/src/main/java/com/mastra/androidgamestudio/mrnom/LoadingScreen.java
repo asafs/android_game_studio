@@ -1,10 +1,10 @@
 package com.mastra.androidgamestudio.mrnom;
 
 
-import com.mastra.androidgamestudio.framework.Game;
-import com.mastra.androidgamestudio.framework.Graphics;
-import com.mastra.androidgamestudio.framework.Graphics.PixmapFormat;
-import com.mastra.androidgamestudio.framework.Screen;
+import com.mastra.androidgames.framework.Game;
+import com.mastra.androidgames.framework.Graphics;
+import com.mastra.androidgames.framework.Graphics.PixmapFormat;
+import com.mastra.androidgames.framework.Screen;
 
 public class LoadingScreen extends Screen {
 

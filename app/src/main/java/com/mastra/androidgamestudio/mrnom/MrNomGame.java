@@ -1,8 +1,8 @@
 package com.mastra.androidgamestudio.mrnom;
 
 
-import com.mastra.androidgamestudio.framework.Screen;
-import com.mastra.androidgamestudio.framework.impl.AndroidGame;
+import com.mastra.androidgames.framework.Screen;
+import com.mastra.androidgames.framework.impl.AndroidGame;
 
 public class MrNomGame extends AndroidGame {
 

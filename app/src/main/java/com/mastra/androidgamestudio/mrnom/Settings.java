@@ -1,6 +1,6 @@
 package com.mastra.androidgamestudio.mrnom;
 
-import com.mastra.androidgamestudio.framework.FileIO;
+import com.mastra.androidgames.framework.FileIO;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

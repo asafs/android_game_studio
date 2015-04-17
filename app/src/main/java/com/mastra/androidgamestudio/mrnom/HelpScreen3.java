@@ -2,10 +2,10 @@ package com.mastra.androidgamestudio.mrnom;
 
 import java.util.List;
 
-import com.mastra.androidgamestudio.framework.Graphics;
-import com.mastra.androidgamestudio.framework.Input.TouchEvent;
-import com.mastra.androidgamestudio.framework.Game;
-import com.mastra.androidgamestudio.framework.Screen;
+import com.mastra.androidgames.framework.Graphics;
+import com.mastra.androidgames.framework.Input.TouchEvent;
+import com.mastra.androidgames.framework.Game;
+import com.mastra.androidgames.framework.Screen;
 
 public class HelpScreen3 extends Screen {
 

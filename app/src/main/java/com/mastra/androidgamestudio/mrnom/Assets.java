@@ -1,8 +1,8 @@
 package com.mastra.androidgamestudio.mrnom;
 
 
-import com.mastra.androidgamestudio.framework.Pixmap;
-import com.mastra.androidgamestudio.framework.Sound;
+import com.mastra.androidgames.framework.Pixmap;
+import com.mastra.androidgames.framework.Sound;
 
 public class Assets {
 	public static Pixmap background;
