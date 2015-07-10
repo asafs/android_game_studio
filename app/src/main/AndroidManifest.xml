@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mastra.androidgamestudio"
-    android:installLocation="preferExternal">
+    android:installLocation="preferExternal" >
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
 
@@ -13,14 +14,34 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".mrnom.MrNomGame"
+            android:configChanges="keyboard|keyboardHidden|orientation"
             android:label="@string/app_name"
-            android:screenOrientation="landscape"
-            android:configChanges="keyboard|keyboardHidden|orientation">
+            android:screenOrientation="landscape" >
+
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            -->
+        </activity>
+        <activity
+            android:name=".LibraryTests.ImageTest"
+            android:label="@string/title_activity_image_test" >
+        </activity>
+        <activity
+            android:name=".LibraryTests.ImageViewTestActivity"
+            android:label="+@string/title_activity_image_view_test" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LibraryTests.SingleImageActivity"
+            android:label="@string/title_activity_single_image" >
         </activity>
     </application>
 

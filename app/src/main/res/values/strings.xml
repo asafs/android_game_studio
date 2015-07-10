@@ -9,4 +9,6 @@
     <string name="title_activity_multi_touch_test">MultiTouchTest</string>
     <string name="title_activity_accelerometer_test">AccelerometerTest</string>
     <string name="title_activity_assets_test">AssetsTest</string>
+    <string name="title_activity_image_test">ImageTest</string>
+    <string name="title_activity_single_image">SingleImageActivity</string>
 </resources>
